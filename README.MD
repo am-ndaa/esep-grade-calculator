@@ -16,3 +16,9 @@ Run unit tests with code coverage:
 cd grade_calculator/
 go test -coverprofile=coverage.txt ./...
 ```
+
+File Summary:
+```
+go.mod: contains the path and the go version
+grade_calculator.go: implements the grade calculator
+grade_calculator_test.go: contains tests
